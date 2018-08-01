@@ -1,0 +1,58 @@
+{
+  "name": "class-sanitizer",
+  "private": false,
+  "version": "0.0.5",
+  "description": "Class-based sanitation in Typescript using decorators",
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pleerock/class-sanitizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pleerock/class-sanitizer/issues"
+  },
+  "tags": [
+    "sanitizer",
+    "sanitation",
+    "typescript",
+    "typescript-sanitizer"
+  ],
+  "dependencies": {
+    "validator": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/assertion-error": "^1.0.30",
+    "@types/chai": "^3.4.35",
+    "@types/chai-as-promised": "^0.0.29",
+    "@types/es6-shim": "^0.31.32",
+    "@types/gulp": "^3.8.32",
+    "@types/mocha": "^2.2.0",
+    "@types/node": "^7.0.5",
+    "@types/sinon": "^1.16.35",
+    "@types/validator": "^5.1.0",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.0",
+    "gulp-tslint": "^4.3.3",
+    "gulpclass": "0.1.0",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "ts-node": "^2.1.0",
+    "tslint": "^3.5.0",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/gulp tests"
+  }
+}
